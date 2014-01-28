@@ -13,6 +13,9 @@ LNP_model_spatiotemporal
 A spatio-temporal LNP model that tiles different LNP models across the visual field in a similar way to magno- and parvocellular pathways.  Available in both MATLAB and python.
 
 
+
+Misc. Notes
+===========
 Note that some scripts require files in the "functions" repo, so make sure to add functions to working directory.
 
 Example:
