@@ -14,7 +14,7 @@ retinaFunctions.py defines the functions that return the RGC spike times given t
 
 visual_neuron.py defines the functions that construct the different RGCs and tile them across the stimulus.  Imports retinaFunctions.
 
-test_*.py runs these functions with a white noise stimulus.  Imports visual_neuron.
+run_*.py runs these functions with a white noise stimulus.  Imports visual_neuron.  Outputs one data file per neuron with spike times listed.
 
 
 
