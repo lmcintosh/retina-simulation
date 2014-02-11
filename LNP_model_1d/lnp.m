@@ -1,7 +1,7 @@
 function [spikeTrain,nonlinearOutput,spikeTimestamps,time] = lnp(input, varargin)
-% lnp is a linear-nonlinear-poisson cascade model used to model retinal ganglion neurons
-% INPUTS: time (duration of output), resolution (length of linear filter),
-% point (threshold), slope (slope of threshold), variance, binLength, stimulusType (0,1,or vector), plots 
+% lnp is a linear-nonlinear-poisson cascade model used to model retinal ganglion neurons.
+% REQUIRED INPUTS: stimulus (vector)
+% OPTIONAL INPUTS: 'binLength', 'gain', 'threshold', 'peakFiringRate', 'meanFiringRate', and 'plots' flag
 % OUTPUTS: spikeTrain, stimulus, nonlinearOutput
 
 p = inputParser;
